@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiro HTML</title>
+</head>
+<body>
+<H1>Titulo H1</H1> 
+<H2>Titulo H2</H2>
+<H3>Titulo H3</H3>
+<H4>Titulo H5</H4>
+<H5>Titulo H6</H5>
+<H6>Titulo H6</H6>
+<P>Isso não e um Paragrafo</P>
+
+</body>
+</html>
+
+banco de dados
+infomarções de  codigos  para  php
+
+INSERT INTO `fornecedores`( `nome_fornecedor`, `cpf_cnpj`, `celular`, `email`, `cep`, `logradouro`, `numero`, `complemento`, `bairro`, `cidade`, `uf`, `contato`) VALUES ('kabum informatica','11.111.111/0001-11','(11) 99999-9999','kabum@kabum.com.br','03050-000','Rua sei la','1725','sala 2','vila nao sei','São Paulo','SP','Jose Manoel')
+
+
+
+insert INTO `fornecedores`( `nome_fornecedor`, `cpf_cnpj`, `celular`, `email`, `cep`, `logradouro`, `numero`, `complemento`, `bairro`, `cidade`, `uf`, `contato`) VALUES ('kabum informatica','11.111.111/0001-11','(11) 99999-9999','kabum@kabum.com.br','03050-000','Rua sei la','1725','sala 2','vila nao sei','São Paulo','SP','Jose Manoel');
