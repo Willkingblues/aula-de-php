@@ -15,10 +15,11 @@ $estado = $_POST['estado'];
 $contato = $_POST['contato'];
  
 try {
-    $sql = "INSERT INTO fornecedores (cpf_cnpj, nome_fornecedor, celular, email, cep,
-    logradouro, numero, complemento, bairro, cidade, estado, contato)
-            VALUES (:cpf_cnpj, :nome_fornecedor, :celular, :email, :cep,
-            :logradouro, :numero, :complemento, :bairro, :cidade, :estado, :contato)";
+    $sql = "UPDATE fornecedores SET cpf_cnpj = :cpf_cnpj, nome_fornecedor = :nome_fornecedor, celular = :celular, email = :email, cep =:cep, logradouro = :logradouro, numero = :numero, 
+    complemento = :complemento, bairro = :bairro, cidade = :cidade, estado = :estado, contato = :contato
+    WHERE id_fornecedor = :id_fornecedor";
+
+    
     $stmt = $pdo->prepare($sql); // Adicionei esta linha para preparar a declaração SQL
     $stmt->bindParam(':cpf_cnpj', $cpf_cnpj);
     $stmt->bindParam(':nome_fornecedor', $nome_fornecedor);
